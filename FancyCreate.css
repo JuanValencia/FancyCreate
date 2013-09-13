@@ -1,0 +1,102 @@
+/*
+ * Stylesheet for the FancyCreate extension
+ *
+ * By Juan Valencia
+ *
+*/
+
+.FancyCreateDiv {
+	margin:15px auto;
+	width:300px;
+	background:lightblue;
+	border:1px solid darkblue;
+	padding:20px 20px 20px 20px;
+}
+
+.FancyCreateHeader {
+	color:white;
+	background:#1144BB;
+	border:1px solid darkblue;
+	padding:5px;
+	margin:0px 0px 10px 0px;
+}
+
+.FancyCreateLabel {
+	padding:0px;
+	margin:0px;
+}
+
+.FancyCreateSubmit {
+	width:100px;
+	text-align:center;
+	margin:5px 0px 0px 0px;
+	background:#1144BB;
+	padding:5px 7px 5px 7px;
+	float:right;
+	border:2px solid #66AADD;
+	border-top:2px solid darkblue;
+	border-bottom:2px solid darkblue;
+	text-decoration:none;
+	color:white;
+	clear:both;
+}
+
+.FancyCreateSubmit:hover {
+	background:#2255FF;
+	text-decoration:none;
+	border:2px solid #66CCFF;
+	border-top:2px solid #1144BB;
+	border-bottom:2px solid #1144BB;
+}
+
+.FancyCreateArticleTitle {
+	width:98%;
+	margin:0 auto;
+	padding:1px;
+}
+
+.FancyCreateNSList {
+	width:100%;
+	padding:1px;
+}
+
+.FancyCreateLabelText {
+	color:darkblue;
+	font-size:1.2em;
+	width:100%;
+	margin:5px 5px 5px 0px;
+}
+
+.FancyCreateError {
+	width:50%;
+	color:red;
+	font-size:.9em;
+	float:left;
+	margin:5px 0px 0px 0px;
+	padding:0px;
+}
+
+.FancyCreateExplanation {
+	font-size:.85em;
+	margin-top:10px;
+}
+
+a.FancyCreateCheck {
+	text-decoration:none;
+	background:gray;
+	color:white;
+	width:100px;
+	text-align:center;
+	border-top:2px solid #666666;
+	border-bottom:2px solid #666666;
+	border-left:2px solid #999999;
+	border-right:2px solid #999999;
+	margin:13px 0px 5px 6px;
+	padding:5px 7px 5px 7px;
+	float:right;
+	clear:both;
+}
+
+a.FancyCreateCheck:hover {
+	background:darkgray;
+}
